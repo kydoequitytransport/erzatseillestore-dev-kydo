@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 import { AccountAccess } from "@/components/account/account-access";
 import { siteConfig } from "@/config/site";
 import { getI18n } from "@/i18n/server";
 import { shopifyConfig } from "@/lib/shopify";
 
 export const instant = false;
+
+const CUSTOMER_SESSION_COOKIE_NAMES = [
+  "shopify_customer_access_token",
+  "shopify_customer_email",
+] as const;
 
 export async function generateMetadata(): Promise<Metadata> {
   const { dict } = await getI18n();
@@ -15,6 +22,11 @@ export default async function AccountLoginPage({
   searchParams,
 }: PageProps<"/[locale]/account/login">) {
   const { locale, dict } = await getI18n();
+  const cookieStore = await cookies();
+  if (CUSTOMER_SESSION_COOKIE_NAMES.every((name) => cookieStore.get(name)?.value)) {
+    redirect(`/${locale}/account`);
+  }
+
   const { error } = await searchParams;
   const callbackUrl = shopifyConfig.customerAccountRedirectUri
     ? new URL(shopifyConfig.customerAccountRedirectUri)

@@ -20,7 +20,7 @@ export async function Header() {
         <SearchBar categories={menu} className="hidden flex-1 md:block lg:mx-6" />
         <div className="ml-auto flex items-center gap-5 md:ml-0">
           <Link
-            href="/account/login"
+            href="/account"
             className="hidden flex-col items-center gap-0.5 text-[13px] font-bold hover:text-brand sm:flex"
           >
             <UserIcon className="size-7" />
