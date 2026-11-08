@@ -1,0 +1,1953 @@
+[
+  {
+    "title": {
+      "de": "Garten & Terrasse",
+      "en": "Garden & terrace",
+      "fr": "Jardin & terrasse",
+      "it": "Giardino e terrazza"
+    },
+    "path": "/collections/garten-terrasse",
+    "items": [
+      {
+        "title": {
+          "de": "Gartenmöbel",
+          "en": "Beach chairs",
+          "fr": "Chaises de plage",
+          "it": "Sedie a sdraio"
+        },
+        "path": "/collections/gartenmobel",
+        "items": [
+          {
+            "title": {
+              "de": "Strandkörbe",
+              "en": "Beach chairs",
+              "fr": "Chaises de plage",
+              "it": "Sedie a sdraio"
+            },
+            "path": "/collections/strandkorbe"
+          },
+          {
+            "title": {
+              "de": "Strandkorbzubehör",
+              "en": "Beach chair accessories",
+              "fr": "Accessoires de chaise de plage",
+              "it": "Accessori per sedie a sdraio"
+            },
+            "path": "/collections/strandkorbzubehor"
+          },
+          {
+            "title": {
+              "de": "Bänke",
+              "en": "Benches",
+              "fr": "Bancs",
+              "it": "Panchine"
+            },
+            "path": "/collections/banke"
+          },
+          {
+            "title": {
+              "de": "Hocker",
+              "en": "stool",
+              "fr": "tabouret",
+              "it": "sgabello"
+            },
+            "path": "/collections/hocker"
+          },
+          {
+            "title": {
+              "de": "Hollywoodschaukeln",
+              "en": "Hollywood swings",
+              "fr": "Les balançoires hollywoodiennes",
+              "it": "Altalene hollywoodiane"
+            },
+            "path": "/collections/hollywoodschaukeln"
+          },
+          {
+            "title": {
+              "de": "Liegestühle",
+              "en": "Deck chairs",
+              "fr": "Transats",
+              "it": "Sedie a sdraio"
+            },
+            "path": "/collections/liegestuhle"
+          },
+          {
+            "title": {
+              "de": "Lounge Möbel",
+              "en": "Lounge furniture",
+              "fr": "Mobilier de salon",
+              "it": "Mobili da salotto"
+            },
+            "path": "/collections/lounge-mobel"
+          },
+          {
+            "title": {
+              "de": "Outdoor Bar Möbel",
+              "en": "Outdoor bar furniture",
+              "fr": "Mobilier de bar extérieur",
+              "it": "Arredi bar da esterno"
+            },
+            "path": "/collections/outdoor-bar-mobel"
+          },
+          {
+            "title": {
+              "de": "Outdoor Sitzsäcke",
+              "en": "Outdoor bean bags",
+              "fr": "Poufs d'extérieur",
+              "it": "Pouf da esterno"
+            },
+            "path": "/collections/outdoor-sitzsacke"
+          },
+          {
+            "title": {
+              "de": "Polsterauflagen",
+              "en": "Cushion pads",
+              "fr": "Coussinets",
+              "it": "Imbottiture per cuscini"
+            },
+            "path": "/collections/polsterauflagen"
+          },
+          {
+            "title": {
+              "de": "Sets",
+              "en": "sets",
+              "fr": "ensembles",
+              "it": "insiemi"
+            },
+            "path": "/collections/sets"
+          },
+          {
+            "title": {
+              "de": "Sitzgruppen",
+              "en": "Seating groups",
+              "fr": "Groupes de sièges",
+              "it": "Gruppi di posti a sedere"
+            },
+            "path": "/collections/sitzgruppen"
+          },
+          {
+            "title": {
+              "de": "Stühle & Sessel",
+              "en": "Chairs and armchairs",
+              "fr": "Chaises et fauteuils",
+              "it": "Sedie e poltroncine"
+            },
+            "path": "/collections/stuhle-sessel"
+          },
+          {
+            "title": {
+              "de": "Tische",
+              "en": "tables",
+              "fr": "tableaux",
+              "it": "tavoli"
+            },
+            "path": "/collections/tische"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Gewächshaus & Gärtnern",
+          "en": "greenhouses",
+          "fr": "serres",
+          "it": "serre"
+        },
+        "path": "/collections/gewachshaus-gartnern",
+        "items": [
+          {
+            "title": {
+              "de": "Gewächshäuser",
+              "en": "greenhouses",
+              "fr": "serres",
+              "it": "serre"
+            },
+            "path": "/collections/gewachshauser"
+          },
+          {
+            "title": {
+              "de": "Hochbeete",
+              "en": "Raised beds",
+              "fr": "Lits surélevés",
+              "it": "Letti rialzati"
+            },
+            "path": "/collections/hochbeete"
+          },
+          {
+            "title": {
+              "de": "Pflanztische",
+              "en": "Planting tables",
+              "fr": "Tables de plantation",
+              "it": "Tavoli da piantare"
+            },
+            "path": "/collections/pflanztische"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Gartenpavillons",
+          "en": "Pavilions",
+          "fr": "Pavillons",
+          "it": "Padiglioni"
+        },
+        "path": "/collections/pavillions",
+        "items": [
+          {
+            "title": {
+              "de": "Pavillons",
+              "en": "Pavilions",
+              "fr": "Pavillons",
+              "it": "Padiglioni"
+            },
+            "path": "/collections/pavillions"
+          },
+          {
+            "title": {
+              "de": "Ersatzdach für Pavillons",
+              "en": "Replacement roof for pavilions",
+              "fr": "Toiture de remplacement pour pavillons",
+              "it": "Tetto sostitutivo per padiglioni"
+            },
+            "path": "/collections/ersatzdach-fur-pavillons"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Pflegemittel",
+          "en": "care products",
+          "fr": "produits de soins",
+          "it": "prodotti per la cura"
+        },
+        "path": "/collections/pflegemittel",
+        "items": [
+          {
+            "title": {
+              "de": "Pflegemittel",
+              "en": "care products",
+              "fr": "produits de soins",
+              "it": "prodotti per la cura"
+            },
+            "path": "/collections/pflegemittel"
+          },
+          {
+            "title": {
+              "de": "Sonnenschutz & Sichtschutz",
+              "en": "Sun protection and privacy protection",
+              "fr": "Protection solaire et protection de la vie privée",
+              "it": "Protezione solare e protezione della privacy"
+            },
+            "path": "/collections/sonnenschutz-sichtschutz"
+          },
+          {
+            "title": {
+              "de": "Schirme & Schirmständer",
+              "en": "Umbrellas & umbrella stands",
+              "fr": "Parapluies et porte-parapluies",
+              "it": "Ombrelli e portaombrelli"
+            },
+            "path": "/collections/schirme-schirmstander"
+          },
+          {
+            "title": {
+              "de": "Schutzhüllen",
+              "en": "Protective covers",
+              "fr": "Housses de protection",
+              "it": "Coperture protettive"
+            },
+            "path": "/collections/schutzhullen"
+          },
+          {
+            "title": {
+              "de": "Terrassenüberdachung",
+              "en": "Terrace roofing",
+              "fr": "Toiture de terrasse",
+              "it": "Copertura del terrazzo"
+            },
+            "path": "/collections/terrassenuberdachung"
+          },
+          {
+            "title": {
+              "de": "Strandkorbzubehör",
+              "en": "Beach chair accessories",
+              "fr": "Accessoires de chaise de plage",
+              "it": "Accessori per sedie a sdraio"
+            },
+            "path": "/collections/strandkorbzubehor"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Badespass",
+          "en": "Outdoor hot tubs",
+          "fr": "Spas extérieurs",
+          "it": "Vasche idromassaggio da esterno"
+        },
+        "path": "/collections/badespass",
+        "items": [
+          {
+            "title": {
+              "de": "Outdoor Whirlpools",
+              "en": "Outdoor hot tubs",
+              "fr": "Spas extérieurs",
+              "it": "Vasche idromassaggio da esterno"
+            },
+            "path": "/collections/outdoor-whirlpools"
+          },
+          {
+            "title": {
+              "de": "Whirlpool-Zubehör",
+              "en": "Hot tub accessories",
+              "fr": "Accessoires de spa",
+              "it": "Accessori per vasche idromassaggio"
+            },
+            "path": "/collections/whirlpool-zubehor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "de": "Haus & Wohnen",
+      "en": "House & Living",
+      "fr": "Maison et vie",
+      "it": "Casa e vita"
+    },
+    "path": null,
+    "items": [
+      {
+        "title": {
+          "de": "Wohnzimmer",
+          "en": "Bar furniture",
+          "fr": "Mobilier de bar",
+          "it": "Mobili da bar"
+        },
+        "path": "/collections/wohnzimmer",
+        "items": [
+          {
+            "title": {
+              "de": "Bar Möbel",
+              "en": "Bar furniture",
+              "fr": "Mobilier de bar",
+              "it": "Mobili da bar"
+            },
+            "path": "/collections/bar-mobel"
+          },
+          {
+            "title": {
+              "de": "Massagesessel",
+              "en": "Massage chair",
+              "fr": "Fauteuil massant",
+              "it": "Poltrona da massaggio"
+            },
+            "path": "/collections/massagesessel"
+          },
+          {
+            "title": {
+              "de": "Aufstehsessel",
+              "en": "Riser chair",
+              "fr": "Chaise surélevée",
+              "it": "Sedia rialzata"
+            },
+            "path": "/collections/aufstehsessel"
+          },
+          {
+            "title": {
+              "de": "Sessel & Hocker",
+              "en": "Armchair & stool",
+              "fr": "Fauteuil & tabouret",
+              "it": "Poltrona e sgabello"
+            },
+            "path": "/collections/sessel-hocker"
+          },
+          {
+            "title": {
+              "de": "Sofas & Wohnlandschaften",
+              "en": "Sofas and living areas",
+              "fr": "Canapés et espaces de vie",
+              "it": "Divani e zone living"
+            },
+            "path": "/collections/sofas-wohnlandschaften"
+          },
+          {
+            "title": {
+              "de": "TV-Boards",
+              "en": "TV boards",
+              "fr": "Tableaux TV",
+              "it": "Schede televisive"
+            },
+            "path": "/collections/tv-boards"
+          },
+          {
+            "title": {
+              "de": "Wandregale",
+              "en": "Wall shelves",
+              "fr": "Etagères murales",
+              "it": "Mensole a muro"
+            },
+            "path": "/collections/wandregale"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Küche & Esszimmer",
+          "en": "Dining tables",
+          "fr": "Tables à manger",
+          "it": "Tavoli da pranzo"
+        },
+        "path": "/collections/kuche-esszimmer",
+        "items": [
+          {
+            "title": {
+              "de": "Esstische",
+              "en": "Dining tables",
+              "fr": "Tables à manger",
+              "it": "Tavoli da pranzo"
+            },
+            "path": "/collections/esstische"
+          },
+          {
+            "title": {
+              "de": "Weinschränke & -regale",
+              "en": "Wine cabinets & racks",
+              "fr": "Caves à vin et casiers",
+              "it": "Armadi e scaffali per vino"
+            },
+            "path": "/collections/weinschranke-regale"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Büro & Arbeitsplatz",
+          "en": "Office chairs",
+          "fr": "Chaises de bureau",
+          "it": "Sedie da ufficio"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Bürostühle",
+              "en": "Office chairs",
+              "fr": "Chaises de bureau",
+              "it": "Sedie da ufficio"
+            },
+            "path": "/collections/burostuhle"
+          },
+          {
+            "title": {
+              "de": "Schreibtische",
+              "en": "Desks",
+              "fr": "Bureaux",
+              "it": "Scrivanie"
+            },
+            "path": "/collections/schreibtische"
+          },
+          {
+            "title": {
+              "de": "Sekretäre",
+              "en": "secretaries",
+              "fr": "secrétaires",
+              "it": "segretari"
+            },
+            "path": "/collections/sekretare"
+          },
+          {
+            "title": {
+              "de": "Massagesessel",
+              "en": "Massage chair",
+              "fr": "Fauteuil massant",
+              "it": "Poltrona da massaggio"
+            },
+            "path": "/collections/massagesessel"
+          },
+          {
+            "title": {
+              "de": "Wandregale",
+              "en": "Wall shelves",
+              "fr": "Etagères murales",
+              "it": "Mensole a muro"
+            },
+            "path": "/collections/wandregale"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Schlafzimmer",
+          "en": "beds",
+          "fr": "lits",
+          "it": "letti"
+        },
+        "path": "/collections/schlafzimmer",
+        "items": [
+          {
+            "title": {
+              "de": "Betten",
+              "en": "beds",
+              "fr": "lits",
+              "it": "letti"
+            },
+            "path": "/collections/betten"
+          },
+          {
+            "title": {
+              "de": "Betten bis 140cm",
+              "en": "Beds up to 140cm",
+              "fr": "Lits jusqu'à 140 cm",
+              "it": "Letti fino a 140 cm"
+            },
+            "path": "/collections/betten-bis-140cm"
+          },
+          {
+            "title": {
+              "de": "Doppelbetten",
+              "en": "Double beds",
+              "fr": "Lits doubles",
+              "it": "Letti matrimoniali"
+            },
+            "path": "/collections/betten-ab-160cm"
+          },
+          {
+            "title": {
+              "de": "Himmelbetten",
+              "en": "Four poster beds",
+              "fr": "Lits à baldaquin",
+              "it": "Letti a baldacchino"
+            },
+            "path": "/collections/himmelbetten"
+          },
+          {
+            "title": {
+              "de": "Lattenroste",
+              "en": "Slatted frames",
+              "fr": "Sommiers à lattes",
+              "it": "Reti a doghe"
+            },
+            "path": "/collections/lattenroste"
+          },
+          {
+            "title": {
+              "de": "Matratzen",
+              "en": "mattresses",
+              "fr": "matelas",
+              "it": "materassi"
+            },
+            "path": "/collections/matratzen"
+          },
+          {
+            "title": {
+              "de": "Kleiderschränke",
+              "en": "Wardrobes",
+              "fr": "Armoires",
+              "it": "Armadi"
+            },
+            "path": "/collections/kleiderschranke"
+          },
+          {
+            "title": {
+              "de": "Nachttische",
+              "en": "bedside tables",
+              "fr": "tables de chevet",
+              "it": "comodini"
+            },
+            "path": "/collections/nachttische"
+          },
+          {
+            "title": {
+              "de": "Spiegel",
+              "en": "Mirror",
+              "fr": "Miroir",
+              "it": "Specchio"
+            },
+            "path": "/collections/spiegel"
+          },
+          {
+            "title": {
+              "de": "Wandregale",
+              "en": "Wall shelves",
+              "fr": "Etagères murales",
+              "it": "Mensole a muro"
+            },
+            "path": "/collections/wandregale"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Kindermöbel",
+          "en": "Children's beds",
+          "fr": "Lits enfants",
+          "it": "Letti per bambini"
+        },
+        "path": "/collections/kindermobel",
+        "items": [
+          {
+            "title": {
+              "de": "Kinderbetten",
+              "en": "Children's beds",
+              "fr": "Lits enfants",
+              "it": "Letti per bambini"
+            },
+            "path": "/collections/kinderbetten"
+          },
+          {
+            "title": {
+              "de": "Kindermatratzen",
+              "en": "Children's mattresses",
+              "fr": "Matelas pour enfants",
+              "it": "Materassi per bambini"
+            },
+            "path": "/collections/kindermatratzen"
+          },
+          {
+            "title": {
+              "de": "Tunnel für Hochbetten",
+              "en": "Tunnel for loft beds",
+              "fr": "Tunnel pour lits mezzanine",
+              "it": "Tunnel per letti a soppalco"
+            },
+            "path": "/collections/tunnel-fur-hochbetten"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Badezimmer",
+          "en": "Whirlpool bathtubs",
+          "fr": "Baignoires à remous",
+          "it": "Vasche idromassaggio"
+        },
+        "path": "/collections/badezimmer",
+        "items": [
+          {
+            "title": {
+              "de": "Whirlpool Badewannen",
+              "en": "Whirlpool bathtubs",
+              "fr": "Baignoires à remous",
+              "it": "Vasche idromassaggio"
+            },
+            "path": "/collections/whirlpool-badewannen"
+          },
+          {
+            "title": {
+              "de": "Dampfduschen",
+              "en": "Steam showers",
+              "fr": "Douches à vapeur",
+              "it": "Docce a vapore"
+            },
+            "path": "/collections/dampfduschen"
+          },
+          {
+            "title": {
+              "de": "Standarmaturen",
+              "en": "Standing fittings",
+              "fr": "Ferrures debout",
+              "it": "Raccordi in piedi"
+            },
+            "path": "/collections/standarmaturen"
+          },
+          {
+            "title": {
+              "de": "Einbau-Badewannen",
+              "en": "Built-in bathtubs",
+              "fr": "Baignoires encastrées",
+              "it": "Vasche da incasso"
+            },
+            "path": "/collections/einbau-badewannen"
+          },
+          {
+            "title": {
+              "de": "Freistehende Badewannen",
+              "en": "Freestanding bathtubs",
+              "fr": "Baignoires autoportantes",
+              "it": "Vasche da bagno indipendenti"
+            },
+            "path": "/collections/freistehende-badewannen"
+          },
+          {
+            "title": {
+              "de": "Badmöbel",
+              "en": "bathroom furniture",
+              "fr": "meubles de salle de bain",
+              "it": "mobili da bagno"
+            },
+            "path": "/collections/badmobel"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Garderobe & Flur",
+          "en": "Cloakroom benches",
+          "fr": "Bancs de vestiaire",
+          "it": "Panchine per guardaroba"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Garderobenbänke",
+              "en": "Cloakroom benches",
+              "fr": "Bancs de vestiaire",
+              "it": "Panchine per guardaroba"
+            },
+            "path": "/collections/garderobenbanke"
+          },
+          {
+            "title": {
+              "de": "Garderobenschränke",
+              "en": "Cloakroom cupboards",
+              "fr": "Armoires de vestiaire",
+              "it": "Armadi guardaroba"
+            },
+            "path": "/collections/garderobenschranke"
+          },
+          {
+            "title": {
+              "de": "Hänge- & Wandgarderoben",
+              "en": "Hanging & wall wardrobes",
+              "fr": "Armoires suspendues et murales",
+              "it": "Armadi pensili e a muro"
+            },
+            "path": "/collections/hange-wandgarderoben"
+          },
+          {
+            "title": {
+              "de": "Schuhschränke",
+              "en": "Shoe cabinets",
+              "fr": "Armoires à chaussures",
+              "it": "Armadi per scarpe"
+            },
+            "path": "/collections/schuhschranke"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Dekoration",
+          "en": "decoration",
+          "fr": "décoration",
+          "it": "decorazione"
+        },
+        "path": "/collections/dekoration",
+        "items": [
+          {
+            "title": {
+              "de": "Dekoration",
+              "en": "decoration",
+              "fr": "décoration",
+              "it": "decorazione"
+            },
+            "path": "/collections/dekoration"
+          },
+          {
+            "title": {
+              "de": "Spiegel",
+              "en": "Mirror",
+              "fr": "Miroir",
+              "it": "Specchio"
+            },
+            "path": "/collections/spiegel"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "NEU Adventskalender 2026",
+          "en": "NEU Adventskalender 2026",
+          "fr": "NEU Adventskalender 2026",
+          "it": "NEU Adventskalender 2026"
+        },
+        "path": "/collections/neu-adventskalender-2026"
+      }
+    ]
+  },
+  {
+    "title": {
+      "de": "Sport & Freizeit",
+      "en": "Sports & Leisure",
+      "fr": "Sports et loisirs",
+      "it": "Sport e tempo libero"
+    },
+    "path": "/collections/sport-freizeit",
+    "items": [
+      {
+        "title": {
+          "de": "Camping & Outdoor",
+          "en": "Camping chairs",
+          "fr": "Chaises de camping",
+          "it": "Sedie da campeggio"
+        },
+        "path": "/collections/camping",
+        "items": [
+          {
+            "title": {
+              "de": "Campingstühle",
+              "en": "Camping chairs",
+              "fr": "Chaises de camping",
+              "it": "Sedie da campeggio"
+            },
+            "path": "/collections/campingstuhle"
+          },
+          {
+            "title": {
+              "de": "Campingtische",
+              "en": "Camping tables",
+              "fr": "Tables de camping",
+              "it": "Tavoli da campeggio"
+            },
+            "path": "/collections/campingtische"
+          },
+          {
+            "title": {
+              "de": "Camping-Zubehör",
+              "en": "Camping accessories",
+              "fr": "Accessoires de camping",
+              "it": "Accessori da campeggio"
+            },
+            "path": "/collections/camping-zubehor"
+          },
+          {
+            "title": {
+              "de": "Dachzelte",
+              "en": "Roof tents",
+              "fr": "Tentes de toit",
+              "it": "Tende da tetto"
+            },
+            "path": "/collections/dachzelte"
+          },
+          {
+            "title": {
+              "de": "Feldbetten",
+              "en": "Cots",
+              "fr": "Lits bébé",
+              "it": "Culle"
+            },
+            "path": "/collections/feldbetten"
+          },
+          {
+            "title": {
+              "de": "Sitzsäcke",
+              "en": "Bean bags",
+              "fr": "Poufs",
+              "it": "Sacchi di fagioli"
+            },
+            "path": null
+          },
+          {
+            "title": {
+              "de": "Zelte",
+              "en": "tents",
+              "fr": "tentes",
+              "it": "tende"
+            },
+            "path": "/collections/zelte"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Fahrrad",
+          "en": "Bicycle trailer",
+          "fr": "Remorque à vélo",
+          "it": "Rimorchio per biciclette"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Fahrradanhänger",
+              "en": "Bicycle trailer",
+              "fr": "Remorque à vélo",
+              "it": "Rimorchio per biciclette"
+            },
+            "path": "/collections/fahrradanhanger"
+          },
+          {
+            "title": {
+              "de": "Ballistol Fahrradpflege | Bike Care",
+              "en": "Ballistol bicycle care | Bike Care",
+              "fr": "Entretien des vélos Ballistol | Entretien du vélo",
+              "it": "Cura della bicicletta Ballistol | Cura della bicicletta"
+            },
+            "path": "/collections/ballistol-fahrradpflege-bike-care"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Spiel & Hobby",
+          "en": "Electronic dart boards",
+          "fr": "Jeux de fléchettes électroniques",
+          "it": "Freccette elettroniche"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Elektronische Dartscheiben",
+              "en": "Electronic dart boards",
+              "fr": "Jeux de fléchettes électroniques",
+              "it": "Freccette elettroniche"
+            },
+            "path": "/collections/elektronische-dartscheiben"
+          },
+          {
+            "title": {
+              "de": "Spieltische",
+              "en": "gaming tables",
+              "fr": "tables de jeux",
+              "it": "tavoli da gioco"
+            },
+            "path": "/collections/spieltische"
+          },
+          {
+            "title": {
+              "de": "Staffeleien",
+              "en": "Easels",
+              "fr": "Chevalets",
+              "it": "Cavalletti"
+            },
+            "path": "/collections/staffeleien"
+          },
+          {
+            "title": {
+              "de": "Trampoline & Zubehör",
+              "en": "Trampolines & Accessories",
+              "fr": "Trampolines et accessoires",
+              "it": "Trampolini e accessori"
+            },
+            "path": "/collections/trampoline-zubehor"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Fitness & Kraftsport",
+          "en": "Treadmills for endurance and fitness",
+          "fr": "Tapis de course pour l'endurance et le fitness",
+          "it": "Tapis roulant per resistenza e fitness"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Laufbänder für Ausdauer und Fitness",
+              "en": "Treadmills for endurance and fitness",
+              "fr": "Tapis de course pour l'endurance et le fitness",
+              "it": "Tapis roulant per resistenza e fitness"
+            },
+            "path": "/collections/elektrische-laufbander"
+          },
+          {
+            "title": {
+              "de": "Rollentrainer",
+              "en": "roller trainer",
+              "fr": "entraîneur à rouleaux",
+              "it": "allenatore a rulli"
+            },
+            "path": "/collections/rollentrainer"
+          },
+          {
+            "title": {
+              "de": "Ergometer & Heimtrainer",
+              "en": "Ergometers and exercise bikes",
+              "fr": "Ergomètres et vélos d'appartement",
+              "it": "Ergometri e cyclette"
+            },
+            "path": "/collections/ergometer-heimtrainer"
+          },
+          {
+            "title": {
+              "de": "Krafttraining",
+              "en": "Strength training",
+              "fr": "Entraînement en force",
+              "it": "Allenamento della forza"
+            },
+            "path": "/collections/krafttraining"
+          },
+          {
+            "title": {
+              "de": "Steppbretter & Mini Stepper",
+              "en": "Stepping boards & mini steppers",
+              "fr": "Marchepieds et mini-steppers",
+              "it": "Pedane e mini stepper"
+            },
+            "path": "/collections/steppbretter-mini-stepper"
+          },
+          {
+            "title": {
+              "de": "Boxsäcke",
+              "en": "Punching bags",
+              "fr": "Sacs de boxe",
+              "it": "Sacchi da boxe"
+            },
+            "path": "/collections/boxsacke"
+          },
+          {
+            "title": {
+              "de": "Hanteln",
+              "en": "dumbbells",
+              "fr": "haltères",
+              "it": "manubri"
+            },
+            "path": "/collections/hanteln"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "de": "Tierbedarf",
+      "en": "Pet supplies",
+      "fr": "Fournitures pour animaux de compagnie",
+      "it": "Forniture per animali domestici"
+    },
+    "path": "/collections/tierbedarf",
+    "items": [
+      {
+        "title": {
+          "de": "Hundezubehör",
+          "en": "Dog crates",
+          "fr": "Caisses pour chiens",
+          "it": "Gabbie per cani"
+        },
+        "path": "/collections/hundezubehor",
+        "items": [
+          {
+            "title": {
+              "de": "Hundeboxen",
+              "en": "Dog crates",
+              "fr": "Caisses pour chiens",
+              "it": "Gabbie per cani"
+            },
+            "path": "/collections/hundeboxen"
+          },
+          {
+            "title": {
+              "de": "Hundesport",
+              "en": "Dog sports",
+              "fr": "Sports canins",
+              "it": "Sport per cani"
+            },
+            "path": "/collections/hundesport"
+          },
+          {
+            "title": {
+              "de": "Hundewagen & Anhänger",
+              "en": "Dog carts & trailers",
+              "fr": "Chariots et remorques pour chiens",
+              "it": "Carrelli e rimorchi per cani"
+            },
+            "path": "/collections/hundewagen-anhanger"
+          },
+          {
+            "title": {
+              "de": "Hundewannen & Pools",
+              "en": "Dog tubs & pools",
+              "fr": "Baignoires et piscines pour chiens",
+              "it": "Vasche e piscine per cani"
+            },
+            "path": "/collections/hundewannen-pools"
+          },
+          {
+            "title": {
+              "de": "Näpfe & Futterstationen",
+              "en": "Bowls & feeding stations",
+              "fr": "Bols et mangeoires",
+              "it": "Ciotole e stazioni di alimentazione"
+            },
+            "path": "/collections/napfe-futterstationen"
+          },
+          {
+            "title": {
+              "de": "Tierbetten",
+              "en": "Animal beds",
+              "fr": "Lits pour animaux",
+              "it": "Letti per animali"
+            },
+            "path": "/collections/tierbetten"
+          },
+          {
+            "title": {
+              "de": "Tierpflegetische",
+              "en": "Animal care tables",
+              "fr": "Tables de soins aux animaux",
+              "it": "Tavoli per la cura degli animali"
+            },
+            "path": "/collections/tierpflegetische"
+          },
+          {
+            "title": {
+              "de": "Tierföhne",
+              "en": "Animal blow dryers",
+              "fr": "Sèche-cheveux pour animaux",
+              "it": "Asciugacapelli per animali"
+            },
+            "path": "/collections/tierfohne"
+          },
+          {
+            "title": {
+              "de": "Absperrgitter & Welpenauslauf",
+              "en": "Barrier & puppy run",
+              "fr": "Barrière & parc à chiots",
+              "it": "Barriera e corsa per cuccioli"
+            },
+            "path": "/collections/welpenauslauf"
+          },
+          {
+            "title": {
+              "de": "Freilaufgehege",
+              "en": "Outdoor enclosure",
+              "fr": "Enclos extérieur",
+              "it": "Custodia per esterni"
+            },
+            "path": "/collections/freilaufgehege"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Katzenzubehör",
+          "en": "Cat houses",
+          "fr": "Maisons pour chats",
+          "it": "Case per gatti"
+        },
+        "path": "/collections/katzenzubehor",
+        "items": [
+          {
+            "title": {
+              "de": "Katzenhäuser",
+              "en": "Cat houses",
+              "fr": "Maisons pour chats",
+              "it": "Case per gatti"
+            },
+            "path": "/collections/katzenhauser"
+          },
+          {
+            "title": {
+              "de": "Kratzbäume",
+              "en": "Scratching posts",
+              "fr": "Poteaux à gratter",
+              "it": "Tiragraffi"
+            },
+            "path": "/collections/kratzbaume"
+          },
+          {
+            "title": {
+              "de": "Näpfe & Futterstationen",
+              "en": "Bowls & feeding stations",
+              "fr": "Bols et mangeoires",
+              "it": "Ciotole e stazioni di alimentazione"
+            },
+            "path": "/collections/napfe-futterstationen"
+          },
+          {
+            "title": {
+              "de": "Tierbetten",
+              "en": "Animal beds",
+              "fr": "Lits pour animaux",
+              "it": "Letti per animali"
+            },
+            "path": "/collections/tierbetten"
+          },
+          {
+            "title": {
+              "de": "Tierpflegetische",
+              "en": "Animal care tables",
+              "fr": "Tables de soins aux animaux",
+              "it": "Tavoli per la cura degli animali"
+            },
+            "path": "/collections/tierpflegetische"
+          },
+          {
+            "title": {
+              "de": "Tierföhne",
+              "en": "Animal blow dryers",
+              "fr": "Sèche-cheveux pour animaux",
+              "it": "Asciugacapelli per animali"
+            },
+            "path": "/collections/tierfohne"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Kleintierzubehör",
+          "en": "Barrier & puppy run",
+          "fr": "Barrière & parc à chiots",
+          "it": "Barriera e corsa per cuccioli"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Absperrgitter & Welpenauslauf",
+              "en": "Barrier & puppy run",
+              "fr": "Barrière & parc à chiots",
+              "it": "Barriera e corsa per cuccioli"
+            },
+            "path": "/collections/welpenauslauf"
+          },
+          {
+            "title": {
+              "de": "Freilaufgehege",
+              "en": "Outdoor enclosure",
+              "fr": "Enclos extérieur",
+              "it": "Custodia per esterni"
+            },
+            "path": "/collections/freilaufgehege"
+          },
+          {
+            "title": {
+              "de": "Hasenställe",
+              "en": "Rabbit hutches",
+              "fr": "Clapiers à lapins",
+              "it": "Gabbie per conigli"
+            },
+            "path": "/collections/hasenstall"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Vogelzubehör",
+          "en": "Chicken coops",
+          "fr": "Poulaillers",
+          "it": "Pollai"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Hühnerställe",
+              "en": "Chicken coops",
+              "fr": "Poulaillers",
+              "it": "Pollai"
+            },
+            "path": "/collections/huhnerstalle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "de": "Wellnessprodukte & Kosmetikartikel",
+      "en": "Wellness products & cosmetic items",
+      "fr": "Produits de bien-être et articles cosmétiques",
+      "it": "Prodotti per il benessere e articoli cosmetici"
+    },
+    "path": "/collections/wellnessprodukte",
+    "items": [
+      {
+        "title": {
+          "de": "Körperpflege",
+          "en": "Bath bombs",
+          "fr": "Bombes de bain",
+          "it": "Bombe da bagno"
+        },
+        "path": "/collections/korperpflege",
+        "items": [
+          {
+            "title": {
+              "de": "Badekugeln",
+              "en": "Bath bombs",
+              "fr": "Bombes de bain",
+              "it": "Bombe da bagno"
+            },
+            "path": "/collections/badekugeln"
+          },
+          {
+            "title": {
+              "de": "Body Lotion",
+              "en": "body lotion",
+              "fr": "lotion pour le corps",
+              "it": "lozione per il corpo"
+            },
+            "path": "/collections/body-lotion"
+          },
+          {
+            "title": {
+              "de": "Fusspflege",
+              "en": "Foot care",
+              "fr": "Soins des pieds",
+              "it": "Cura dei piedi"
+            },
+            "path": "/collections/fusspflege"
+          },
+          {
+            "title": {
+              "de": "Gesichtscreme & Pflege",
+              "en": "Face cream & care",
+              "fr": "Crème & soin visage",
+              "it": "Crema e cura per il viso"
+            },
+            "path": "/collections/gesichtscreme"
+          },
+          {
+            "title": {
+              "de": "Hand- & Nagelpflege",
+              "en": "Hand & nail care",
+              "fr": "Soins des mains et des ongles",
+              "it": "Cura delle mani e delle unghie"
+            },
+            "path": "/collections/hand-nagelpflege"
+          },
+          {
+            "title": {
+              "de": "Handcreme",
+              "en": "Hand cream",
+              "fr": "Crème pour les mains",
+              "it": "Crema per le mani"
+            },
+            "path": "/collections/handcreme"
+          },
+          {
+            "title": {
+              "de": "Körpercreme",
+              "en": "Body cream",
+              "fr": "Crème pour le corps",
+              "it": "Crema per il corpo"
+            },
+            "path": "/collections/korpercreme"
+          },
+          {
+            "title": {
+              "de": "Körperpeeling",
+              "en": "Body scrub",
+              "fr": "Gommage corps",
+              "it": "Scrub corpo"
+            },
+            "path": "/collections/korperpeeling"
+          },
+          {
+            "title": {
+              "de": "Lippenpflege",
+              "en": "Lip care",
+              "fr": "Soins des lèvres",
+              "it": "Cura delle labbra"
+            },
+            "path": "/collections/lippenpflege"
+          },
+          {
+            "title": {
+              "de": "Wax Bars",
+              "en": "Wax bars",
+              "fr": "Barres de cire",
+              "it": "Barre di cera"
+            },
+            "path": "/collections/wax-bars"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Bad & Dusche",
+          "en": "Bath & shower",
+          "fr": "Bain et douche",
+          "it": "Bagno e doccia"
+        },
+        "path": "/collections/bad-dusche",
+        "items": [
+          {
+            "title": {
+              "de": "Bad & Dusche",
+              "en": "Bath & shower",
+              "fr": "Bain et douche",
+              "it": "Bagno e doccia"
+            },
+            "path": "/collections/bad-dusche"
+          },
+          {
+            "title": {
+              "de": "Duschgel",
+              "en": "shower gel",
+              "fr": "gel douche",
+              "it": "gel doccia"
+            },
+            "path": "/collections/duschgel"
+          },
+          {
+            "title": {
+              "de": "Seifen & Flüssigseifen",
+              "en": "Soaps & liquid soaps",
+              "fr": "Savons & savons liquides",
+              "it": "Saponi e saponi liquidi"
+            },
+            "path": "/collections/seife"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Bartpflege & Rasur",
+          "en": "Beard care and shaving",
+          "fr": "Entretien de la barbe et rasage",
+          "it": "Cura della barba e rasatura"
+        },
+        "path": "/collections/bartpflege-rasur",
+        "items": [
+          {
+            "title": {
+              "de": "Bartpflege & Rasur",
+              "en": "Beard care and shaving",
+              "fr": "Entretien de la barbe et rasage",
+              "it": "Cura della barba e rasatura"
+            },
+            "path": "/collections/bartpflege-rasur"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Raumduft",
+          "en": "Car scent",
+          "fr": "Parfum de voiture",
+          "it": "Profumo di auto"
+        },
+        "path": "/collections/raumduft",
+        "items": [
+          {
+            "title": {
+              "de": "Auto-Duft",
+              "en": "Car scent",
+              "fr": "Parfum de voiture",
+              "it": "Profumo di auto"
+            },
+            "path": "/collections/auto-duft"
+          },
+          {
+            "title": {
+              "de": "Duft-Kerzen",
+              "en": "Scented candles",
+              "fr": "Bougies parfumées",
+              "it": "Candele profumate"
+            },
+            "path": "/collections/duft-kerzen"
+          },
+          {
+            "title": {
+              "de": "Duft-Sachets",
+              "en": "Fragrance sachets",
+              "fr": "Sachets de parfum",
+              "it": "Bustine profumate"
+            },
+            "path": "/collections/duft-sachets"
+          },
+          {
+            "title": {
+              "de": "Duft-Sprays",
+              "en": "Fragrance sprays",
+              "fr": "Sprays parfumés",
+              "it": "Spray profumati"
+            },
+            "path": "/collections/duft-sprays"
+          },
+          {
+            "title": {
+              "de": "Duft-Öl-Essenzen",
+              "en": "Fragrance oil essences",
+              "fr": "Essences d'huiles parfumées",
+              "it": "Essenze di oli profumati"
+            },
+            "path": "/collections/duft-ol-essenzen"
+          },
+          {
+            "title": {
+              "de": "Duft-Reiniger",
+              "en": "Scented Cleanser",
+              "fr": "Nettoyant parfumé",
+              "it": "Detergente profumato"
+            },
+            "path": "/collections/duft-reiniger"
+          },
+          {
+            "title": {
+              "de": "Reed-Diffuser Öle",
+              "en": "Reed diffuser oils",
+              "fr": "Huiles pour diffuseurs à roseaux",
+              "it": "Oli per diffusori a lamella"
+            },
+            "path": "/collections/reed-diffuser-ole"
+          },
+          {
+            "title": {
+              "de": "Reed-Diffuser Zubehör",
+              "en": "Reed diffuser accessories",
+              "fr": "Accessoires pour diffuseurs à roseaux",
+              "it": "Accessori per diffusori a lamella"
+            },
+            "path": "/collections/reed-diffuser-zubehor"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Displays & Sets",
+          "en": "Displays",
+          "fr": "Affichages",
+          "it": "Visualizza"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Displays",
+              "en": "Displays",
+              "fr": "Affichages",
+              "it": "Visualizza"
+            },
+            "path": "/collections/displays"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Massage & Saunaöle",
+          "en": "Massage & healing oil",
+          "fr": "Huile de massage et de guérison",
+          "it": "Olio da massaggio e curativo"
+        },
+        "path": null,
+        "items": [
+          {
+            "title": {
+              "de": "Massage- & Heilöl",
+              "en": "Massage & healing oil",
+              "fr": "Huile de massage et de guérison",
+              "it": "Olio da massaggio e curativo"
+            },
+            "path": "/collections/massage-heilol"
+          },
+          {
+            "title": {
+              "de": "Saunaöl",
+              "en": "Sauna oil",
+              "fr": "Huile de sauna",
+              "it": "Olio per sauna"
+            },
+            "path": "/collections/saunaol"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "de": "Baumarkt & Heimwerken",
+      "en": "Hardware store & DIY",
+      "fr": "Quincaillerie & bricolage",
+      "it": "Negozio di ferramenta e bricolage"
+    },
+    "path": "/collections/baumarkt-heimwerken",
+    "items": [
+      {
+        "title": {
+          "de": "Schweisszubehör",
+          "en": "Welding gloves",
+          "fr": "Gants de soudage",
+          "it": "Guanti da saldatura"
+        },
+        "path": "/collections/schweisszubehor",
+        "items": [
+          {
+            "title": {
+              "de": "Schweisserhandschuhe",
+              "en": "Welding gloves",
+              "fr": "Gants de soudage",
+              "it": "Guanti da saldatura"
+            },
+            "path": "/collections/schweisserhandschuhe"
+          },
+          {
+            "title": {
+              "de": "Schweisshelme",
+              "en": "Welding helmets",
+              "fr": "Casques de soudage",
+              "it": "Caschi per saldatura"
+            },
+            "path": "/collections/schweisshelme"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Ballistol",
+          "en": "Ballistol Animal | Animal care & mosquito protection",
+          "fr": "Animal de balistique | Soins aux animaux et protection contre les moustiques",
+          "it": "Animale Ballistol | Cura degli animali e protezione dalle zanzare"
+        },
+        "path": "/collections/ballistol",
+        "items": [
+          {
+            "title": {
+              "de": "Ballistol Animal | Tierpflege & Mückenschutz",
+              "en": "Ballistol Animal | Animal care & mosquito protection",
+              "fr": "Animal de balistique | Soins aux animaux et protection contre les moustiques",
+              "it": "Animale Ballistol | Cura degli animali e protezione dalle zanzare"
+            },
+            "path": "/collections/ballistol-tierpflegeprodukte"
+          },
+          {
+            "title": {
+              "de": "Ballistol Fahrradpflege | Bike Care",
+              "en": "Ballistol bicycle care | Bike Care",
+              "fr": "Entretien des vélos Ballistol | Entretien du vélo",
+              "it": "Cura della bicicletta Ballistol | Cura della bicicletta"
+            },
+            "path": "/collections/ballistol-fahrradpflege-bike-care"
+          },
+          {
+            "title": {
+              "de": "Ballistol Hausmittel | Neo Ballistol",
+              "en": "Ballistol home remedies | Neo Ballistol",
+              "fr": "Remèdes maison Ballistol | Néo Ballistol",
+              "it": "Rimedi casalinghi Ballistol | Neo Ballistol"
+            },
+            "path": "/collections/ballistol-hausmittel-neo-ballistol"
+          },
+          {
+            "title": {
+              "de": "Ballistol Händedesinfektion",
+              "en": "Ballistol hand disinfection",
+              "fr": "Désinfection des mains Ballistol",
+              "it": "Disinfezione delle mani con Ballistol"
+            },
+            "path": "/collections/ballistol-handedesinfektion"
+          },
+          {
+            "title": {
+              "de": "Ballistol Mückenschutz | Stichfrei",
+              "en": "Ballistol mosquito repellent | Stitch-free",
+              "fr": "Anti-moustique Ballistol | Sans point",
+              "it": "Repellente per zanzare Ballistol | Senza punti"
+            },
+            "path": "/collections/ballistol-muckenschutz-stichfrei"
+          },
+          {
+            "title": {
+              "de": "Ballistol Universalöl",
+              "en": "Ballistol universal oil",
+              "fr": "Huile universelle Ballistol",
+              "it": "Olio universale Ballistol"
+            },
+            "path": "/collections/ballistol-universalol"
+          },
+          {
+            "title": {
+              "de": "Ballistol Waffenpflege | GunEx",
+              "en": "Ballistol weapon care | GunEx",
+              "fr": "Entretien des armes Ballistol | GunEx",
+              "it": "Cura delle armi Ballistol | GunEx"
+            },
+            "path": "/collections/ballistol-waffenpflege-gunex"
+          },
+          {
+            "title": {
+              "de": "Ballistol Werkstattzubehör",
+              "en": "Ballistol workshop accessories",
+              "fr": "Accessoires d'atelier Ballistol",
+              "it": "Accessori per officina Ballistol"
+            },
+            "path": "/collections/ballistol-werkstattzubehor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "de": "Baby & Kind",
+      "en": "Baby & Child",
+      "fr": "Bébé et Enfant",
+      "it": "Neonato e bambino"
+    },
+    "path": "/collections/baby-kind",
+    "items": [
+      {
+        "title": {
+          "de": "Kindermöbel",
+          "en": "Children's beds",
+          "fr": "Lits enfants",
+          "it": "Letti per bambini"
+        },
+        "path": "/collections/kindermobel",
+        "items": [
+          {
+            "title": {
+              "de": "Kinderbetten",
+              "en": "Children's beds",
+              "fr": "Lits enfants",
+              "it": "Letti per bambini"
+            },
+            "path": "/collections/kinderbetten"
+          },
+          {
+            "title": {
+              "de": "Kindermatratzen",
+              "en": "Children's mattresses",
+              "fr": "Matelas pour enfants",
+              "it": "Materassi per bambini"
+            },
+            "path": "/collections/kindermatratzen"
+          },
+          {
+            "title": {
+              "de": "Tunnel für Hochbetten",
+              "en": "Tunnel for loft beds",
+              "fr": "Tunnel pour lits mezzanine",
+              "it": "Tunnel per letti a soppalco"
+            },
+            "path": "/collections/tunnel-fur-hochbetten"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Kinderfahrzeuge",
+          "en": "Tricycles",
+          "fr": "Tricycles",
+          "it": "Tricicli"
+        },
+        "path": "/collections/kinderfahrzeuge",
+        "items": [
+          {
+            "title": {
+              "de": "Dreiräder",
+              "en": "Tricycles",
+              "fr": "Tricycles",
+              "it": "Tricicli"
+            },
+            "path": "/collections/dreirader"
+          },
+          {
+            "title": {
+              "de": "Elektrofahrzeuge",
+              "en": "Electric vehicles",
+              "fr": "Véhicules électriques",
+              "it": "Veicoli elettrici"
+            },
+            "path": "/collections/elektrofahrzeuge"
+          },
+          {
+            "title": {
+              "de": "Go Karts & Pedalfahrzeuge",
+              "en": "Go karts & pedal vehicles",
+              "fr": "Karts et véhicules à pédales",
+              "it": "Go kart e veicoli a pedali"
+            },
+            "path": "/collections/go-karts-pedalfahrzeuge"
+          },
+          {
+            "title": {
+              "de": "Tretroller",
+              "en": "scooter",
+              "fr": "scooter",
+              "it": "scooter"
+            },
+            "path": "/collections/tretroller"
+          },
+          {
+            "title": {
+              "de": "Laufräder und Rutscher",
+              "en": "Balance bikes and ride-ons",
+              "fr": "Draisiennes et porteurs",
+              "it": "Balance bike e cavalcabili"
+            },
+            "path": "/collections/laufrader-und-rutscher"
+          },
+          {
+            "title": {
+              "de": "Fahrradanhänger",
+              "en": "Bicycle trailer",
+              "fr": "Remorque à vélo",
+              "it": "Rimorchio per biciclette"
+            },
+            "path": "/collections/fahrradanhanger"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Outdoor Spielzeug",
+          "en": "Playhouse & play tower",
+          "fr": "Cabane et tour de jeu",
+          "it": "Casetta e torre dei giochi"
+        },
+        "path": "/collections/outdoor-spielzeug",
+        "items": [
+          {
+            "title": {
+              "de": "Spielhaus & Spielturm",
+              "en": "Playhouse & play tower",
+              "fr": "Cabane et tour de jeu",
+              "it": "Casetta e torre dei giochi"
+            },
+            "path": "/collections/spielhaus-spielturm"
+          },
+          {
+            "title": {
+              "de": "Sandkasten",
+              "en": "sandbox",
+              "fr": "bac à sable",
+              "it": "sabbiera"
+            },
+            "path": "/collections/sandkasten"
+          },
+          {
+            "title": {
+              "de": "Schaukeln",
+              "en": "Rock",
+              "fr": "Rocher",
+              "it": "Roccia"
+            },
+            "path": "/collections/schaukeln"
+          },
+          {
+            "title": {
+              "de": "Outdoor Spielgeräte",
+              "en": "Outdoor play equipment",
+              "fr": "Équipement de jeu extérieur",
+              "it": "Attrezzature da gioco all'aperto"
+            },
+            "path": "/collections/outdoor-spielgerate"
+          },
+          {
+            "title": {
+              "de": "Hüpfburgen",
+              "en": "Bouncy castles",
+              "fr": "Châteaux gonflables",
+              "it": "Castelli gonfiabili"
+            },
+            "path": "/collections/hupfburgen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Indoor Spielzeug",
+          "en": "Indoor play equipment",
+          "fr": "Équipement de jeu intérieur",
+          "it": "Attrezzature da gioco per interni"
+        },
+        "path": "/collections/indoor-spielzeug",
+        "items": [
+          {
+            "title": {
+              "de": "Indoor Spielgeräte",
+              "en": "Indoor play equipment",
+              "fr": "Équipement de jeu intérieur",
+              "it": "Attrezzature da gioco per interni"
+            },
+            "path": "/collections/indoor-spielgerate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "de": "Saunen & Infrarotkabinen",
+      "en": "Saunas & infrared cabins",
+      "fr": "Saunas et cabines infrarouges",
+      "it": "Saune e cabine a infrarossi"
+    },
+    "path": "/collections/saunen-infrarotkabinen",
+    "items": [
+      {
+        "title": {
+          "de": "Infrarotkabinen",
+          "en": "Infrared cabins",
+          "fr": "Cabines infrarouges",
+          "it": "Cabine a infrarossi"
+        },
+        "path": "/collections/infrarotkabinen",
+        "items": [
+          {
+            "title": {
+              "de": "Infrarotkabinen",
+              "en": "Infrared cabins",
+              "fr": "Cabines infrarouges",
+              "it": "Cabine a infrarossi"
+            },
+            "path": "/collections/infrarotkabinen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Saunen",
+          "en": "Outdoor & barrel saunas",
+          "fr": "Saunas extérieurs et barils",
+          "it": "Saune all'aperto e a botte"
+        },
+        "path": "/collections/230v-saunen",
+        "items": [
+          {
+            "title": {
+              "de": "Aussen- & Fasssaunen",
+              "en": "Outdoor & barrel saunas",
+              "fr": "Saunas extérieurs et barils",
+              "it": "Saune all'aperto e a botte"
+            },
+            "path": "/collections/aussen-fasssaunen"
+          },
+          {
+            "title": {
+              "de": "Innensaunen",
+              "en": "Indoor saunas",
+              "fr": "Saunas intérieurs",
+              "it": "Saune da interno"
+            },
+            "path": "/collections/innensaunen"
+          },
+          {
+            "title": {
+              "de": "230V-Sauna",
+              "en": "230V sauna",
+              "fr": "Sauna 230V",
+              "it": "Sauna 230V"
+            },
+            "path": "/collections/230v-saunen"
+          }
+        ]
+      },
+      {
+        "title": {
+          "de": "Sauna-Zubehör",
+          "en": "Sauna oil",
+          "fr": "Huile de sauna",
+          "it": "Olio per sauna"
+        },
+        "path": "/collections/sauna-zubehor",
+        "items": [
+          {
+            "title": {
+              "de": "Saunaöl",
+              "en": "Sauna oil",
+              "fr": "Huile de sauna",
+              "it": "Olio per sauna"
+            },
+            "path": "/collections/saunaol"
+          },
+          {
+            "title": {
+              "de": "Sauna-Zubehör",
+              "en": "Sauna accessories",
+              "fr": "Accessoires pour saunas",
+              "it": "Accessori per saune"
+            },
+            "path": "/collections/sauna-zubehor"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,26 +1,121 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-brand: #d4b654;
+  --color-brand-dark: #b8983a;
+  --color-brand-darker: #8b7223;
+  --color-brand-light: #fcf9f1;
+  --color-sale: #f04f36;
+  --color-success: #51a551;
+  --color-warning: #ffab41;
+  --color-ink: #000000;
+  --color-muted: #6b6b6b;
+  --color-line: #e6e6e6;
+  --color-surface: #f2f2f2;
+
+  --font-sans: var(--font-nunito), "Nunito Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-montserrat), "Montserrat", ui-sans-serif, system-ui, sans-serif;
+
+  --container-site: 1600px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    @apply bg-white font-sans text-[15px] leading-relaxed text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading font-semibold tracking-tight;
+  }
+
+  :focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--color-brand) 60%, transparent);
+    outline-offset: 2px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility container-site {
+  @apply mx-auto w-full max-w-(--container-site) px-2.5 sm:px-4 lg:px-6;
+}
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-[3px] border px-7 py-3.5 text-sm font-bold transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+@utility btn-primary {
+  @apply btn border-brand bg-brand text-white hover:border-brand-dark hover:bg-brand-dark;
+}
+
+@utility btn-secondary {
+  @apply btn border-line bg-white text-ink hover:border-ink;
+}
+
+@utility btn-dark {
+  @apply btn border-ink bg-ink text-white hover:bg-neutral-800;
+}
+
+@utility section-title {
+  @apply font-heading text-[22px] font-semibold md:text-[26px];
+}
+
+@utility link-underline {
+  @apply underline decoration-1 underline-offset-4 hover:text-brand;
+}
+
+@layer components {
+  .input {
+    @apply h-11 w-full rounded-[3px] border border-[#80808040] bg-white px-3.5 text-[15px] shadow-[0_2px_3px_#8080801c] outline-none transition placeholder:text-muted hover:border-[#cca833] focus:border-brand-darker focus:shadow-[0_2px_6px_#00000026];
+  }
+
+  .rte {
+    @apply text-[15px] leading-7;
+  }
+  .rte p,
+  .rte ul,
+  .rte ol,
+  .rte table {
+    @apply mb-4;
+  }
+  .rte ul {
+    @apply list-disc pl-6;
+  }
+  .rte ol {
+    @apply list-decimal pl-6;
+  }
+  .rte h1 {
+    @apply mt-6 mb-4 text-2xl;
+  }
+  .rte h2 {
+    @apply mt-6 mb-3 text-xl;
+  }
+  .rte h3 {
+    @apply mt-5 mb-2 text-lg;
+  }
+  .rte a {
+    @apply link-underline;
+  }
+  .rte img {
+    @apply my-4 h-auto max-w-full;
+  }
+  .rte table {
+    @apply w-full border-collapse text-sm;
+  }
+  .rte td,
+  .rte th {
+    @apply border border-line px-3 py-2 text-left;
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
