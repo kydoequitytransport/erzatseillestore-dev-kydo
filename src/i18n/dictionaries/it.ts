@@ -32,9 +32,12 @@ const it: Dictionary = {
   account: {
     login: "Accedi",
     description:
-      "Accedi in modo sicuro con Shopify o crea un account. Shopify ti invierà un codice monouso via e-mail; non serve una password.",
-    continue: "Accedi o crea un account con Shopify",
-    unavailable: "Gli account cliente Shopify non sono ancora configurati per questo negozio.",
+      "Accedi in modo sicuro o crea un account. Shopify verifica il tuo indirizzo e-mail e poi ti riporta al nostro negozio.",
+    continue: "Continua in modo sicuro",
+    unavailable: "Aggiungi un URL HTTPS pubblico nelle impostazioni Shopify prima di attivare l'accesso clienti.",
+    authError: "Accesso non riuscito. Riprova.",
+    signedInAs: "Hai effettuato l'accesso come",
+    logout: "Esci",
   },
   search: {
     searching: "Ricerca in corso…",

@@ -30,9 +30,12 @@ const de = {
   account: {
     login: "Anmelden",
     description:
-      "Melden Sie sich sicher bei Shopify an oder erstellen Sie dort ein Konto. Shopify sendet Ihnen einen einmaligen Code per E-Mail; ein Passwort ist nicht erforderlich.",
-    continue: "Bei Shopify anmelden oder Konto erstellen",
-    unavailable: "Shopify-Kundenkonten sind für diesen Shop noch nicht konfiguriert.",
+      "Melden Sie sich sicher an oder erstellen Sie ein Konto. Shopify bestätigt Ihre E-Mail-Adresse und leitet Sie anschließend zurück zu unserem Shop.",
+    continue: "Sicher fortfahren",
+    unavailable: "Für die Anmeldung muss zuerst eine öffentliche HTTPS-Adresse in den Shopify-Einstellungen hinterlegt werden.",
+    authError: "Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut.",
+    signedInAs: "Sie sind angemeldet als",
+    logout: "Abmelden",
   },
   search: {
     searching: "Suche läuft…",

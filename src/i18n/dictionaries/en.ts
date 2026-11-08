@@ -32,9 +32,12 @@ const en: Dictionary = {
   account: {
     login: "Sign in",
     description:
-      "Sign in or create your account securely with Shopify. Shopify emails you a one-time code; no password is needed.",
-    continue: "Sign in or create an account with Shopify",
-    unavailable: "Shopify customer accounts are not configured for this store yet.",
+      "Sign in or create an account securely. Shopify verifies your email and then returns you to our store.",
+    continue: "Continue securely",
+    unavailable: "Add a public HTTPS URL in Shopify settings before enabling customer sign-in.",
+    authError: "We couldn't complete sign-in. Please try again.",
+    signedInAs: "Signed in as",
+    logout: "Sign out",
   },
   search: {
     searching: "Searching…",

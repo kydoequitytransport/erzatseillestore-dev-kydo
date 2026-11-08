@@ -32,9 +32,12 @@ const fr: Dictionary = {
   account: {
     login: "Connexion",
     description:
-      "Connectez-vous en toute sécurité avec Shopify ou créez-y un compte. Shopify vous enverra un code unique par e-mail ; aucun mot de passe n'est nécessaire.",
-    continue: "Se connecter ou créer un compte avec Shopify",
-    unavailable: "Les comptes clients Shopify ne sont pas encore configurés pour cette boutique.",
+      "Connectez-vous en toute sécurité ou créez un compte. Shopify vérifie votre adresse e-mail, puis vous redirige vers notre boutique.",
+    continue: "Continuer en toute sécurité",
+    unavailable: "Ajoutez une URL HTTPS publique dans Shopify avant d'activer la connexion client.",
+    authError: "La connexion n'a pas pu aboutir. Veuillez réessayer.",
+    signedInAs: "Connecté en tant que",
+    logout: "Se déconnecter",
   },
   search: {
     searching: "Recherche en cours…",

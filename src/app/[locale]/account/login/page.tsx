@@ -1,26 +1,39 @@
 import type { Metadata } from "next";
 import { AccountAccess } from "@/components/account/account-access";
+import { siteConfig } from "@/config/site";
 import { getI18n } from "@/i18n/server";
 import { shopifyConfig } from "@/lib/shopify";
+
+export const instant = false;
 
 export async function generateMetadata(): Promise<Metadata> {
   const { dict } = await getI18n();
   return { title: dict.account.login, robots: { index: false } };
 }
 
-export default async function AccountLoginPage() {
+export default async function AccountLoginPage({
+  searchParams,
+}: PageProps<"/[locale]/account/login">) {
   const { locale, dict } = await getI18n();
-  const accountUrl = shopifyConfig.customerAccountUrl ? new URL(shopifyConfig.customerAccountUrl) : null;
-  if (accountUrl && accountUrl.protocol !== "https:") {
-    throw new Error("SHOPIFY_CUSTOMER_ACCOUNT_URL must use HTTPS");
-  }
-  accountUrl?.searchParams.set("locale", locale);
+  const { error } = await searchParams;
+  const callbackUrl = shopifyConfig.customerAccountRedirectUri
+    ? new URL(shopifyConfig.customerAccountRedirectUri)
+    : null;
+  const siteUrl = new URL(siteConfig.url);
+  const validCallback =
+    callbackUrl?.protocol === "https:" &&
+    callbackUrl.pathname === "/api/customer/callback" &&
+    siteUrl.protocol === "https:" &&
+    callbackUrl.origin === siteUrl.origin;
+  const authorizationUrl = shopifyConfig.customerAccountClientId && validCallback
+    ? `/api/customer/login?locale=${locale}`
+    : null;
 
   return (
     <div className="container-site min-h-[220px] py-8 md:min-h-[220px] md:py-6">
       <section className="mx-auto max-w-[440px]">
         <h1 className="mb-6 text-center text-[24px] font-bold">{dict.account.login}</h1>
-        <AccountAccess accountUrl={accountUrl?.toString() ?? null} />
+        <AccountAccess authorizationUrl={authorizationUrl} error={error === "auth"} />
       </section>
     </div>
   );

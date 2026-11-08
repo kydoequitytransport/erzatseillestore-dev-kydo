@@ -10,7 +10,8 @@ export const shopifyConfig = {
   isMockShop,
   endpoint: isMockShop ? `https://${domain}/api` : `https://${domain}/api/${apiVersion}/graphql.json`,
   accessToken: process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN || "",
-  customerAccountUrl: process.env.SHOPIFY_CUSTOMER_ACCOUNT_URL || "",
+  customerAccountClientId: process.env.SHOPIFY_CUSTOMER_ACCOUNT_CLIENT_ID || "",
+  customerAccountRedirectUri: process.env.SHOPIFY_CUSTOMER_ACCOUNT_REDIRECT_URI || "",
   country: (process.env.SHOPIFY_COUNTRY || "CH").toUpperCase(),
 };
 
