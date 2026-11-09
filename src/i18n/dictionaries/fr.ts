@@ -122,6 +122,7 @@ const fr: Dictionary = {
     total: "Total",
     secureCheckout: "Paiement sécurisé via Shopify Checkout",
     error: "Le panier n’a pas pu être mis à jour.",
+    checkoutError: "Impossible de démarrer le paiement. Veuillez réessayer.",
   },
   listing: {
     sortBy: "Trier par",

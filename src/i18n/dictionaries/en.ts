@@ -122,6 +122,7 @@ const en: Dictionary = {
     total: "Total",
     secureCheckout: "Secure payment via Shopify Checkout",
     error: "The cart could not be updated.",
+    checkoutError: "We couldn't start checkout. Please try again.",
   },
   listing: {
     sortBy: "Sort by",

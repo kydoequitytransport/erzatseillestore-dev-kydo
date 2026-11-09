@@ -1,5 +1,6 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
 import { useCart, useCartActions } from "@/components/cart/cart-context";
 import { CartLineItem } from "@/components/cart/cart-line-item";
 import { Link, useI18n } from "@/i18n/client";
@@ -8,11 +9,14 @@ import { cn, formatMoney } from "@/lib/utils";
 export function CartView() {
   const cart = useCart();
   const { isPending, error } = useCartActions();
-  const { dict, intl } = useI18n();
+  const searchParams = useSearchParams();
+  const { dict, intl, locale } = useI18n();
+  const checkoutError = searchParams.get("checkout") === "error";
 
   if (!cart || cart.lines.length === 0) {
     return (
       <div className="py-16 text-center">
+        {checkoutError && <p role="alert" className="mb-4 text-sm text-sale">{dict.cart.checkoutError}</p>}
         <p className="mb-6 text-lg">{dict.cart.empty}</p>
         <Link href="/collections" className="btn-primary">
           {dict.cart.continueShopping}
@@ -51,8 +55,9 @@ export function CartView() {
             <dd>{formatMoney(cart.cost.totalAmount, intl)}</dd>
           </div>
         </dl>
+        {checkoutError && <p role="alert" className="mt-3 text-sm text-sale">{dict.cart.checkoutError}</p>}
         {error && <p className="mt-3 text-sm text-sale">{error}</p>}
-        <a href={cart.checkoutUrl} className="btn-primary mt-6 w-full">
+        <a href={`/api/checkout?locale=${locale}`} className="btn-primary mt-6 w-full">
           {dict.cart.checkout}
         </a>
         <p className="mt-3 text-center text-xs text-muted">{dict.cart.secureCheckout}</p>

@@ -23,3 +23,6 @@ export const TAGS = {
 } as const;
 
 export const CART_COOKIE = "cartId";
+export const CHECKOUT_INTENT_COOKIE = "shopify_checkout_intent";
+export const CHECKOUT_VARIANT_COOKIE = "shopify_checkout_variant";
+export const CHECKOUT_QUANTITY_COOKIE = "shopify_checkout_quantity";

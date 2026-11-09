@@ -223,6 +223,12 @@ export const CART_QUERY = doc(
   CART,
 );
 
+export const CART_CHECKOUT_URL_QUERY = doc(/* GraphQL */ `
+  query CartCheckoutUrl($cartId: ID!) {
+    cart(id: $cartId) { checkoutUrl }
+  }
+`);
+
 const USER_ERRORS = "userErrors { field message }";
 
 export const CART_CREATE_MUTATION = doc(

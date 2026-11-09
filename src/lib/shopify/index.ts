@@ -7,6 +7,7 @@ import {
   ARTICLE_QUERY,
   ARTICLES_QUERY,
   BLOG_ARTICLES_QUERY,
+  CART_CHECKOUT_URL_QUERY,
   CART_CREATE_MUTATION,
   CART_LINES_ADD_MUTATION,
   CART_LINES_REMOVE_MUTATION,
@@ -82,7 +83,12 @@ function reshapeProduct<T extends { options: { optionValues: { name: string }[] 
 }
 
 function reshapeCart(cart: ShopifyCart): Cart {
-  return { ...cart, lines: cart.lines.nodes };
+  return {
+    id: cart.id,
+    totalQuantity: cart.totalQuantity,
+    cost: cart.cost,
+    lines: cart.lines.nodes,
+  };
 }
 
 /* ----------------------------------------------------------------------------
@@ -449,12 +455,12 @@ type CartMutationResult = {
   userErrors: { field: string[] | null; message: string }[];
 };
 
-function unwrapCartMutation(result: CartMutationResult): Cart {
+function unwrapCartMutation(result: CartMutationResult): ShopifyCart {
   if (result.userErrors.length) {
     throw new ShopifyError(result.userErrors.map((e) => e.message).join("; "));
   }
   if (!result.cart) throw new ShopifyError("Shopify returned no cart");
-  return reshapeCart(result.cart);
+  return result.cart;
 }
 
 export async function getCart(locale: Locale, cartId: string): Promise<Cart | null> {
@@ -466,6 +472,16 @@ export async function getCart(locale: Locale, cartId: string): Promise<Cart | nu
   return data.cart ? reshapeCart(data.cart) : null;
 }
 
+export async function getCartCheckoutUrl(locale: Locale, cartId: string): Promise<string | null> {
+  if (!cartId) return null;
+  const data = await shopifyFetch<{ cart: { checkoutUrl: string } | null }>({
+    query: CART_CHECKOUT_URL_QUERY,
+    variables: { cartId },
+    locale,
+  });
+  return data.cart?.checkoutUrl ?? null;
+}
+
 export type CartLineInput = { merchandiseId: string; quantity: number };
 
 export async function createCart(locale: Locale, lines: CartLineInput[] = []): Promise<Cart> {
@@ -474,7 +490,16 @@ export async function createCart(locale: Locale, lines: CartLineInput[] = []): P
     variables: { lines },
     locale,
   });
-  return unwrapCartMutation(data.cartCreate);
+  return reshapeCart(unwrapCartMutation(data.cartCreate));
+}
+
+export async function createCartCheckoutUrl(locale: Locale, lines: CartLineInput[]): Promise<string> {
+  const data = await shopifyFetch<{ cartCreate: CartMutationResult }>({
+    query: CART_CREATE_MUTATION,
+    variables: { lines },
+    locale,
+  });
+  return unwrapCartMutation(data.cartCreate).checkoutUrl;
 }
 
 export async function addCartLines(locale: Locale, cartId: string, lines: CartLineInput[]): Promise<Cart> {
@@ -483,7 +508,7 @@ export async function addCartLines(locale: Locale, cartId: string, lines: CartLi
     variables: { cartId, lines },
     locale,
   });
-  return unwrapCartMutation(data.cartLinesAdd);
+  return reshapeCart(unwrapCartMutation(data.cartLinesAdd));
 }
 
 export async function updateCartLines(
@@ -496,7 +521,7 @@ export async function updateCartLines(
     variables: { cartId, lines },
     locale,
   });
-  return unwrapCartMutation(data.cartLinesUpdate);
+  return reshapeCart(unwrapCartMutation(data.cartLinesUpdate));
 }
 
 export async function removeCartLines(locale: Locale, cartId: string, lineIds: string[]): Promise<Cart> {
@@ -505,7 +530,7 @@ export async function removeCartLines(locale: Locale, cartId: string, lineIds: s
     variables: { cartId, lineIds },
     locale,
   });
-  return unwrapCartMutation(data.cartLinesRemove);
+  return reshapeCart(unwrapCartMutation(data.cartLinesRemove));
 }
 
 /* ----------------------------------------------------------------------------

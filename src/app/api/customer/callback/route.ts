@@ -2,7 +2,12 @@ import { cookies } from "next/headers";
 import { NextResponse, type NextRequest } from "next/server";
 import { createRemoteJWKSet, jwtVerify } from "jose";
 import { DEFAULT_LOCALE, isLocale } from "@/i18n/config";
-import { shopifyConfig } from "@/lib/shopify/config";
+import {
+  CHECKOUT_INTENT_COOKIE,
+  CHECKOUT_QUANTITY_COOKIE,
+  CHECKOUT_VARIANT_COOKIE,
+  shopifyConfig,
+} from "@/lib/shopify/config";
 
 const FLOW_COOKIE_NAMES = [
   "customer_oauth_state",
@@ -37,9 +42,16 @@ function clearFlowCookies(response: NextResponse) {
   }
 }
 
+function clearCheckoutIntent(response: NextResponse) {
+  for (const name of [CHECKOUT_INTENT_COOKIE, CHECKOUT_VARIANT_COOKIE, CHECKOUT_QUANTITY_COOKIE]) {
+    response.cookies.set(name, "", { ...AUTH_COOKIE_OPTIONS, path: "/api", maxAge: 0 });
+  }
+}
+
 function failureResponse(request: NextRequest, locale: string) {
   const response = NextResponse.redirect(new URL(`/${locale}/account/login?error=auth`, request.url));
   clearFlowCookies(response);
+  clearCheckoutIntent(response);
   return response;
 }
 
@@ -106,7 +118,12 @@ export async function GET(request: NextRequest) {
       throw new Error("Shopify did not return a verified customer email");
     }
 
-    const response = NextResponse.redirect(new URL(`/${locale}/account`, request.url));
+    const checkoutIntent = cookieStore.get(CHECKOUT_INTENT_COOKIE)?.value;
+    const destination =
+      checkoutIntent === "cart" || checkoutIntent === "buy-now"
+        ? `/api/checkout?locale=${locale}${checkoutIntent === "buy-now" ? "&mode=buy-now" : ""}`
+        : `/${locale}/account`;
+    const response = NextResponse.redirect(new URL(destination, request.url));
     clearFlowCookies(response);
     response.cookies.set("shopify_customer_access_token", tokens.access_token, {
       ...AUTH_COOKIE_OPTIONS,

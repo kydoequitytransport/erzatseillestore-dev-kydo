@@ -126,7 +126,6 @@ export type CartLine = {
 
 export type Cart = {
   id: string;
-  checkoutUrl: string;
   totalQuantity: number;
   cost: {
     subtotalAmount: Money;
@@ -136,7 +135,7 @@ export type Cart = {
   lines: CartLine[];
 };
 
-export type ShopifyCart = Omit<Cart, "lines"> & { lines: Connection<CartLine> };
+export type ShopifyCart = Omit<Cart, "lines"> & { checkoutUrl: string; lines: Connection<CartLine> };
 
 export type Article = {
   id: string;

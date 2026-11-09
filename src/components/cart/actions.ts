@@ -78,23 +78,6 @@ export async function updateLineQuantity(locale: Locale, lineId: string, quantit
   }
 }
 
-/** Express checkout for a single variant: a separate cart, so the shopper's main cart stays untouched. */
-export async function buyNow(
-  locale: Locale,
-  merchandiseId: string,
-  quantity = 1,
-): Promise<{ checkoutUrl: string | null; error?: string }> {
-  if (typeof merchandiseId !== "string" || !merchandiseId || !Number.isInteger(quantity) || quantity < 1) {
-    return { checkoutUrl: null, error: "Invalid selection" };
-  }
-  try {
-    const cart = await createCart(safeLocale(locale), [{ merchandiseId, quantity }]);
-    return { checkoutUrl: cart.checkoutUrl };
-  } catch (error) {
-    return { checkoutUrl: null, error: toError(error) };
-  }
-}
-
 export async function removeLine(locale: Locale, lineId: string): Promise<CartActionResult> {
   return updateLineQuantity(locale, lineId, 0);
 }

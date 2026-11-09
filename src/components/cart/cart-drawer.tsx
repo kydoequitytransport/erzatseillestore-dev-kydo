@@ -10,7 +10,7 @@ import { CartLineItem } from "./cart-line-item";
 function DrawerBody() {
   const cart = useCart();
   const { close, error, isPending } = useCartActions();
-  const { dict, intl } = useI18n();
+  const { dict, intl, locale } = useI18n();
 
   if (!cart || cart.lines.length === 0) {
     return (
@@ -37,7 +37,7 @@ function DrawerBody() {
           <span>{formatMoney(cart.cost.subtotalAmount, intl)}</span>
         </div>
         <p className="mb-4 text-xs text-muted">{dict.cart.shippingNote}</p>
-        <a href={cart.checkoutUrl} className="btn-primary w-full">
+        <a href={`/api/checkout?locale=${locale}`} className="btn-primary w-full">
           {dict.cart.checkout}
         </a>
         <Link href="/cart" onClick={close} className="btn-secondary mt-2 w-full">

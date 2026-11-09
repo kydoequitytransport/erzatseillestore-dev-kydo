@@ -120,6 +120,7 @@ const de = {
     total: "Total",
     secureCheckout: "Sichere Zahlung über Shopify Checkout",
     error: "Der Warenkorb konnte nicht aktualisiert werden.",
+    checkoutError: "Der Checkout konnte nicht gestartet werden. Bitte versuchen Sie es erneut.",
   },
   listing: {
     sortBy: "Sortieren nach",
